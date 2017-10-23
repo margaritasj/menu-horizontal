@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+ul {
+    background-color: #2e2e2a;
+    list-style: none; /* Para quitar los iconos de la lista */
+    padding: 0;
+    margin: 0;
+    line-height: 50px; /* aplicar una altura de la linea */
+    
+}
+li {
+    width: 120px;
+    display: inline-block; /* aplicara a los elementos de bloque que se pongan uno atras de otro de forma adyacente en linea */
+    text-align: center;
+}
+a {
+    display: block; /* aplicara a los elementos en linea que se pongan en bloque */
+    text-decoration: none; /* quitara el evecto de cambiar de color al darle clic al link */
+    color: white;
+    
+}
+a:hover { /* hara un cambio de estado cuando pase el mouse sobre el link */
+    background-color: #ffc107;
+    color: black;
+}
